@@ -1,20 +1,39 @@
 
 $(document).ready(function() {
   $("#blanks form").submit(function(event) {
-    var person1Input = $("input#person1").val();
-    var person2Input = $("input#person2").val();
-    var animalInput = $("input#animal").val();
-    var exclamationInput = $("input#exclamation").val();
+    var adjectiveInput = $("input#adjective").val();
+    var adverbInput = $("input#adverb").val();
     var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
+    var personInput = $("input#person").val();
+    var cityInput = $("input#city").val();
+    var landmarkInput = $("input#landmark").val();
+    var placeInput = $("input#place").val();
+    var thingInput = $("input#thing").val();
+    var emotionInput = $("input#emotion").val();
+    var exclamationInput = $("input#exclamation").val();
+    var quoteInput = $("input#quote").val();
+    var timeInput = $("input#time").val();
+    var weatherInput = $("input#weather").val();
+    var bodypartInput = $("input#bodypart").val();
+    var bodypart2Input = $("input#bodypart2").val();
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
+    $(".adjective").text(adjectiveInput);
+    $(".adverb").text(adverbInput);
     $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+    $(".person").text(personInput);
+    $(".city").text(cityInput);
+    $(".landmark").text(landmarkInput);
+    $(".place").text(placeInput);
+    $(".thing").text(thingInput);
+    $(".emotion").text(emotionInput);
+    $(".exclamation").text(exclamationInput);
+    $(".quote").text(quoteInput);
+    $(".time").text(timeInput);
+    $(".weather").text(weatherInput);
+    $(".bodypart").text(bodypartInput);
+    $(".bodypart2").text(bodypart2Input);
 
+    $("#blanks").hide();
     $("#story").show();
 
     event.preventDefault();

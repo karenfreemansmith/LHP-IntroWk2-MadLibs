@@ -4,44 +4,135 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>A fantastical adventure</title>
+    <title>Build Your Own Story</title>
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Fill in the blanks to write your story!</h1>
-    <div id="blanks">
+    <div class="container">
+    <div id="blanks" class="row">
+      <h1>Fill in the blanks to write your story!</h1>
       <form>
-        <div class="form-group">
-          <label for="person1">A name</label>
-          <input id="person1" class="form-control" type="text">
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="adjective">An adjective:</label>
+          <input id="adjective" class="form-control" type="text">
         </div>
-        <div class="form-group">
-          <label for="person2">Another person</label>
-          <input id="person2" class="form-control" type="text">
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="adverb">An adverb:</label>
+          <input id="adverb" class="form-control" type="text">
         </div>
-        <div class="form-group">
-          <label for="animal">An animal</label>
-          <input id="animal" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="exclamation">An exclaimation</label>
-          <input id="exclamation" class="form-control" type="text">
-        </div>
-        <div class="form-group">
-          <label for="verb">A past tense verb</label>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="verb">A verb:</label>
           <input id="verb" class="form-control" type="text">
         </div>
-        <div class="form-group">
-          <label for="noun">A noun</label>
-          <input id="noun" class="form-control" type="text">
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="person">A person:</label>
+          <input id="person" class="form-control" type="text">
         </div>
-        <button type="submit" class="btn">Show me the story!</button>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="city">A city:</label>
+          <input id="city" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="landmark">A landmark:</label>
+          <input id="landmark" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="place">A place:</label>
+          <input id="place" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="thing">A thing:</label>
+          <input id="thing" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="emotion">An emotion:</label>
+          <input id="emotion" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="quote">A quote:</label>
+          <input id="quote" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="exclamation">A type of reply:</label>
+          <input id="exclamation" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="bodypart">A body part:</label>
+          <input id="bodypart" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="bodypart2">A body part:</label>
+          <input id="bodypart2" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="weather">Type of weather:</label>
+          <input id="weather" class="form-control" type="text">
+        </div>
+        <div class="form-group col-sm-2 col-xs-4">
+          <label for="time">A time of day:</label>
+          <input id="time" class="form-control" type="text">
+        </div>
+        <div class="col-xs-3"></div>
+        <div class="col-xs-6">
+          <button type="submit" class="btn btn-info btn-block">Show me the story!</button>
+        </div>
+        <div class="col-xs-3"></div>
       </form>
     </div>
     <div id="story">
-      <h1>A Fantastical Adventure</h1>
-      <p>One day, <span class="person1"></span> and <span class="person2"></span> were walking through the woods, when suddenly a giant <span class="animal"></span> appeared. "<span class="exclamation"></span>", <span class="person1"></span> cried. The two of them <span class="verb"></span> as quickly possible, and when they were safe, <span class="person1"></span> and <span class="person2"></span> gave each other a giant <span class="noun"></span>.</p>
+      <h1>A <span class="adjective"></span> <span class="place"></span></h1>
+      <p>It was a
+        <span class="adjective"></span> and
+        <span class="adjective"></span>
+        <span class="time"></span>; the
+        <span class="weather"></span> fell in torrents, except at occasional intervals, when it was checked by a
+        <span class="adjective"></span> gust of
+        <span class="weather"></span> which swept up the streets (for it is in
+        <span class="city"></span> that our scene lies), rattling along the
+        <span class="thing"></span>, and fiercely agitating the scanty
+        <span class="thing"></span> that struggled against the
+        <span class="thing"></span>. Through one of the
+        <span class="adjective"></span> quarters of
+        <span class="city"></span>, and among haunts little loved by the
+        <span class="person"></span>, a man, evidently
+        <span class="adjective"></span>, was wending his
+        <span class="adjective"></span> way. He stopped twice or thrice at different
+        <span class="place"></span> and
+        <span class="place"></span> of a description correspondent with the
+        <span class="adjective"></span> of the quartier in which they were situated, and
+        <span class="verb"></span> for some article or another which did not seem
+        <span class="adjective"></span>. All the
+        <span class="exclamation"></span> he received were
+        <span class="adjective"></span>; and as he turned from each door he
+        <span class="verb"></span> to himself, in no very elegant phraseology, his
+        <span class="emotion"></span> and
+        <span class="emotion"></span>. At length, at one house, the landlord, a
+        <span class="adjective"></span>
+        <span class="person"></span>, after rendering the same reply
+        <span class="person"></span> had hitherto received, added,
+        "<span class="quote"></span>" Pausing
+        <span class="adverb"></span> for a moment,
+        <span class="person"></span> responded that he thought the
+        <span class="thing"></span> might do as well; and thrusting it into his ample
+        <span class="thing"></span>, he strode away with as rapid a motion as the
+        <span class="weather"></span> and the
+        <span class="weather"></span> would allow. He soon came to a nest of
+        <span class="adjective"></span> and
+        <span class="adjective"></span> buildings, at the entrance to which, in
+        <span class="adjective"></span> characters, was written "
+        <span class="landmark"></span>." Halting at the most
+        <span class="adjective"></span> of these buildings, an
+        <span class="place"></span> or
+        <span class="place"></span>, through the half-closed windows of which blazed out in ruddy comfort the
+        <span class="thing"></span>s of the hospitable hearth, he
+        <span class="verb"></span> hastily at the door. He was admitted by a
+        <span class="person"></span>, and endowed with a comely rotundity of
+        <span class="bodypart"></span> and
+        <span class="bodypart2"></span>.
+      </p>
+      <p id="notes">"It was a dark and stormy night" is an often-mocked and parodied phrase written by English novelist Edward Bulwer-Lytton in the opening sentence of his 1830 novel Paul Clifford. This story is based off that famous opening paragraph.</p>
+    </div>
     </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
